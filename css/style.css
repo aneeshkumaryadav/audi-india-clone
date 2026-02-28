@@ -1,0 +1,729 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar{
+    height: 70px;
+    width: 100%;
+    background-color: black;
+    color: #fcfcfdb2;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.logo{
+    background-image: url("../images/audi-logo.png");
+    background-size: cover;
+    height: 30px;
+    width: 90px;
+}
+
+.nav-pages{
+    width: 66%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pages{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pages p{
+    display: inline;
+    margin-left: 20px;
+}
+
+.pages p:hover{
+    color: white;
+}
+
+.box3{
+    height: 70px;
+    width: 300px;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.location{
+    height: 50px;
+    width: 180px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    border-radius: 50px;
+}
+
+.location p{
+    font-size: 0.95rem;
+}
+
+.location:hover{
+    border: 1px solid rgb(95, 104, 117);
+    background-color: rgba(64, 74, 89, 1);
+}
+
+.search-glass{
+    height: 50px;
+    width: 50px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+
+    font-size: 1rem;
+    border-radius: 50px;
+}
+
+.search-glass:hover{
+    border: 1px solid rgb(95, 104, 117);
+    background-color: rgba(64, 74, 89, 1);
+}
+
+.panel1{
+    background-image: url("../images/race-car-image.png");
+    background-size: cover;
+    height: 780px;
+    position: relative;
+    margin-top: 70px;
+}
+
+.text{
+    position: absolute;
+    top: 70px;
+    left: 100px;
+
+    z-index: 1;
+}
+
+.heading-text h1{
+    height: 52px;
+    width: 466.84px;
+    margin: 28px 0px 8px;
+    color: #fcfcfd;
+}
+
+.para p{
+    height: 24px;
+    width: 466.84px;
+    color: #fcfcfd;
+}
+
+.discover{
+    height: 48px;
+    width: 184px;
+    background-color: rgb(101, 113, 130);
+    color: white;
+    border-radius: 50px;
+
+    margin: 24px 0px 4px;
+    padding: 12px 24px;
+}
+
+.discover:hover{
+    background-color: #2d3540;
+}
+/* .heading-text{
+    font-size: 24px;
+    height: 52px;
+    color: white;
+    margin: 58px 0px 16px;
+}
+
+.para{
+    font-size: 18px;
+    height: 24px;
+    color: white;
+    position: absolute;
+    top: 135px;
+} */
+/* 
+.discover{
+    height: 48px;
+    width: 184px;
+    background-color: rgb(101, 113, 130);
+    color: white;
+    border-radius: 50px;
+    position: absolute;
+    top: 170px;
+    margin: 24px 0px 4px;
+    padding: 12px 24px;
+}
+
+.discover:hover{
+    background-color: #2d3540;
+} */
+
+.mess{
+    height: 60px;
+    width: 60px;
+    background-color: red;
+    border-radius: 50px;
+    background-image: url("../images/feedback-sidebox.png");
+    background-size: cover;
+
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+
+    z-index: 1000;
+}
+
+.models-card{
+    min-height: 1550px;
+    background-color: #101319;
+}
+
+.types{
+    width: 43%;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#model-type{
+    height: 30px;
+    width: 120px;
+    font-size: 12px;
+    font-weight: 500;
+    background-color: #181d25;
+    border: 1px solid #2c343f;
+    border-radius: 7px;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+    top: 40px;
+    left: 100px;
+}
+
+#model-type:hover{
+    background-color: #2c343f;
+}
+
+#model-type:active{
+    background-color: #404a59;
+}
+
+.card-section{
+    display: flex;
+    gap: 10px;
+    padding: 20px;
+}
+
+.cards {
+    height: 181px;
+    width: 220px;
+    background-color: #212832;
+    border: 1px solid #2c343f;
+    border-radius: 20px;
+    padding: 16px;
+
+    position: relative;
+    top: 60px;
+    left: 90px;
+}
+
+.model-name {
+    font-size: 16px;
+    color: #fcfcfdb2;
+}
+
+.model-image{
+    height: 93px;
+    width: 171px;
+
+    padding: 0px 0px 12px;
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.cards:hover{
+    background-color: #2c343f;
+}
+
+.model-count{
+    height: 28px;
+    font-size: 12px;
+    color: #fcfcfdb2;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.buttons{
+    height: 60px;
+    width: 100%;
+
+    display: flex;
+    gap: 10px;
+
+    position: relative;
+    top: 70px;
+    left: 110px;
+}
+
+.explore{
+    height: 50px;
+    width: 200px;
+    color: white;
+    background-color: #181d25;
+    border: 1px solid #2c343f;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 50px;
+}
+
+.explore:hover{
+    background-color: #2c343f;
+}
+
+.compare{
+    height: 50px;
+    width: 200px;
+    color: white;
+    background-color: #181d25;
+    border: 1px solid #2c343f;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 50px;
+}
+
+.compare:hover{
+    background-color: #2c343f;
+}
+
+.first-info{
+    height: 456.56px;
+    width: 100%;
+
+    padding: 28px 60px;
+
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    row-gap: 112px;
+}
+
+.six-cards{
+    height: 420.56px;
+    width: 426.63px;
+    border-radius: 25px;
+    
+    position: relative;
+    top: 175px;
+
+    /* padding: 16px; */
+}
+
+#locator{
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('../images/locator.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#myaudi{
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('../images/myAudi.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#usedcars{
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('../images/usedCars.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#testdrive{
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('../images/testDrive.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#onlineservice{
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('../images/onlineService.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#press{
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('../images/release.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.six-cards h2{
+    font-size: 32px;
+    color: #fcfcfd;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+    top: 296px;
+}
+
+.six-cards p{
+    font-size: 14px;
+    color: #fcfcfd;
+    text-decoration-line: underline;
+    text-decoration-thickness: 0.2px;
+    text-underline-offset: 7px;    
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+    top: 315px;
+}
+
+/* Added Extra Transition From My Side */
+/* .six-cards:hover{
+    transform: scale(1.075);
+    transition: all 0.25s ease-in-out;
+} */
+
+.spotlight{
+    height: 640px;
+}
+
+.spot-image{
+    height: 640px;
+
+    background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url('../images/new-audiQ5.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.spot-text{
+    height: 164px;
+    width: 1341.4px;
+    margin: 28px 0px 16px;
+}
+
+.spot-text h2{
+    height: 104px;
+    width: 1100px;
+    font-size: 40px;
+    color: #fcfcfd;
+    
+    margin: 28px 0px 16px;
+
+    position: relative;
+    bottom: 300px;
+    left: 110px;
+}
+
+.spot-text p{
+    height: 64px;
+    width: 1100px;
+    font-size: 24px;
+    color: #fcfcfd;
+    line-height: 1.43;
+
+    position: relative;
+    bottom: 300px;
+    left: 110px;
+}
+
+.spot-btn{
+    height: 48px;
+    width: 126.3px;
+    background-color: #657081;
+    color: #fcfcfd;
+
+    border-radius: 50px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+    bottom: 300px;
+    left: 110px;
+}
+
+.spot-btn:hover{
+    background-color: #2c343f;
+}
+
+.separate{
+    height: 56px;
+    width: 1533.6px;
+    background-color: #101319;
+}
+
+.connect{
+    height: 100vh;
+    width: 100%;
+    background-color: #101319;
+}
+
+.my-app{
+    height: 758.8px;
+    width: 1533.6px;
+
+    padding: 32px 96px 56px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.connect-cont{
+    color: #fcfcfd;
+}
+
+.head{
+    height: 44px;
+    width: 402.45px;
+}
+
+.mid{
+    height: 48px;
+    width: 558.8px;
+    color: #fcfcfdb2;
+
+    margin: 8px 0px 0px;
+    row-gap: 20px;
+}
+
+.bot{
+    height: 78px;
+    width: 375.38px;
+    color: #fcfcfd;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.ios-app{
+    height: 48px;
+    width: 167.94px;
+    font-size: 14px;
+    background-color: #657081;
+    border: 1px solid #2c343f;
+
+    padding: 12px 24px;
+
+    border-radius: 50px;
+}
+
+.ios-app:hover{
+    background-color: #2c343f;
+}
+
+.and-app{
+    height: 48px;
+    width: 199.44px;
+    font-size: 14px;
+    background-color: #181d25;
+    border: 1px solid #2c343f;
+
+    padding: 12px 24px;
+
+    border-radius: 50px;
+}
+
+.and-app:hover{
+    background-color: #2c343f;
+}
+
+.connect-image{
+    height: 670.8px;
+    width: 670.8px;
+
+    background-image: url("../images/connect-app.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    border-radius: 25px;
+}
+
+footer{
+    height: 1183.6px;
+    background-color: #020203;
+
+    padding: 24px 96px 32px;
+}
+
+.foot-panel1{
+    height: 24px;
+    color: white;
+    text-align: end;
+    background-color: #020203;
+}
+
+.foot-panel1:hover{
+    color: #b1b1b2;
+}
+
+.foot-panel2{
+    height: 518px;
+    width: 1341.6px;
+    color: #fcfcfd;
+
+    margin: 28px 0px;
+
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.foot-panel2 ul{
+    height: 30.5px;
+    width: 206.70px;
+}
+
+.foot-panel2 ul p{
+    font-size: 26px;
+    text-align: left;
+    margin-bottom: 50px;
+    color: #fcfcfd;
+}
+
+.foot-panel2 ul a{
+    height: 36px;
+    width: 236.71px;
+    display: block;
+    font-size: 14px;
+    padding: 0px 0px 12px;
+    color: #fcfcfd;
+
+    letter-spacing: 0.08em;
+}
+
+ul a:hover{
+    color: #fcfcfdb2;
+}
+
+.social-icons{
+    height: 60px;
+    width: 1341.6px;
+
+    padding-bottom: 12px;
+
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+}
+
+.icons{
+    height: 48px;
+    width: 48px;
+    color: #fcfcfd;
+
+    background-color: #181d25;
+    border: 1px solid #2c343f;
+    border-radius: 50%;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons:hover{
+    background-color: #2c343f;
+}
+
+.line-break{
+    height: 3px;
+    width: 1341.6px;
+    background-color: #fcfcfd33;
+}
+
+.inline-copy{
+    height: 74px;
+    width: 1341.6px;
+
+    margin: 40px 0px 0px;
+    padding: 0px 32px 0px 0px;
+
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.name-year{
+    height: 28px;
+    color: #b1b2b2;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 0px 50px 0px 0px;
+}
+
+.anchor-links span a{
+    text-decoration: none;
+    color: #fcfcfd;
+
+    padding: 0px 0px 2px;
+}
+
+.anchor-links span a:hover{
+    color: #b1b2b2;
+}
+
+.anchor-links span{
+    padding: 8px 16px 8px 0px;
+}
+
+.cont-text{
+    height: 216px;
+    width: 1341.6px;
+
+    color: #b1b2b2;
+
+    margin: 40px 0px 0px 0px;
+
+}
+html, body {
+    overflow-x: hidden;
+}
