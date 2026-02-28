@@ -28,7 +28,7 @@ The goal of this project was to practice:
 
 ## ✨ Features
 
-- Responsive navigation bar
+- Navigation bar
 - Car model showcase section
 - Hero banner section
 - Footer with links
