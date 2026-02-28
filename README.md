@@ -48,4 +48,5 @@ The goal of this project was to practice:
 ## 👩‍💻 Author
 
 Aneesh Kumar Yadav
+<br>
 BTech AI/ML Student
