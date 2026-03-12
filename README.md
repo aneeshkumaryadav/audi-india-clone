@@ -2,7 +2,7 @@
 
 A front-end clone of the official Audi India website built using HTML & CSS.
 
-🔗 **Live Demo:** link will avialable in 2 minutes...
+🔗 **Live Demo:** https://aneeshkumaryadav.github.io/audi-india-clone/
 
 ---
 
