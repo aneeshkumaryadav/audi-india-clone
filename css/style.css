@@ -609,19 +609,6 @@ footer{
     cursor: pointer;
 }
 
-a {
-    text-decoration: none;
-    color: inherit;
-}
-
-a:visited {
-    color: inherit;
-}
-
-a:hover {
-    color: inherit;
-}
-
 .foot-panel1:hover{
     color: #b1b1b2;
 }
@@ -760,3 +747,4 @@ html, body {
 html {
     scroll-behavior: smooth;
 }
+
