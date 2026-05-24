@@ -27,6 +27,20 @@ This project was built primarily to strengthen core front-end development skills
 
 ---
 
+# 🖼️ Preview
+
+## 🧭 Navbar Section
+
+<img width="100%" src="./images/navbar-preview.png" alt="Navbar Preview">
+
+---
+
+## 🚘 Hero Section
+
+<img width="100%" src="./images/hero-preview.png" alt="Hero Section">
+
+---
+
 # 🛠️ Technologies Used
 
 ## 🔹 HTML5
