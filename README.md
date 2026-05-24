@@ -73,6 +73,41 @@ CSS3 was used to style and design the entire user interface.
 
 ---
 
+# 📁 Project Folder Structure
+
+```
+Audi-India-Website/
+│
+├── index.html
+├── README.md
+│
+├── css/
+│   └── style.css
+│
+├── images/
+│   ├── A4.jpg
+│   ├── A5.jpg
+|   ├── Q3.jpg
+│   ├── Q5.jpg
+|   ├── Q7.jpg
+│   ├── Q8.jpg
+|   ├── audi-logo.png
+│   ├── connect-app.jpg
+|   ├── feedback-sidebox.png
+│   ├── heroSection.png
+|   ├── locator.jpg
+│   ├── myAudi.jpg
+|   ├── navbar.png
+│   ├── new-audiQ5.jpg
+|   ├── onlineService.jpg
+│   ├── race-car-image.png
+|   ├── release.jpg
+│   ├── testDrive.jpg
+│   └── usedCars.jpg
+```
+
+---
+
 # ✨ Features
 
 * Premium-inspired modern UI
