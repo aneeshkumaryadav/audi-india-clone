@@ -78,9 +78,6 @@ CSS3 was used to style and design the entire user interface.
 ```
 Audi-India-Website/
 │
-├── index.html
-├── README.md
-│
 ├── css/
 │   └── style.css
 │
@@ -104,6 +101,9 @@ Audi-India-Website/
 |   ├── release.jpg
 │   ├── testDrive.jpg
 │   └── usedCars.jpg
+|
+├── README.md
+└── index.html
 ```
 
 ---
