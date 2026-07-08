@@ -2,7 +2,7 @@
 
 A modern and visually refined front-end recreation inspired by the official Audi India website, developed using **HTML5** and **CSS3**.
 
-🔗 **Live Demo:** https://aneeshkumaryadav.github.io/audi-india-clone/
+🔗 **Live Demo:** https://aneeshkumaryadav.github.io/audi.in/
 
 ---
 
